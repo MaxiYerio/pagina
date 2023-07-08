@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="recetas de cocina ">
+    <meta name="keywords" content="comidas de carne, vegetales y otros tipos">
+    <meta name="author" content="Maximiliano Yerio"> 
+    <title>Trabajo Practico 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script>
+        alert ("Bienvenidos a todos a Miaw Chef entren comodos")
+    </script>
+</head>
+
+<body>
+    <nav>
+
+        <input type="checkbox" id="toogle">
+        <!--el logo de la pagina-->
+        <div class="logo">
+            <img class="logop" src="./logo/logop.png">
+            <h2>Miaw Chef</h2>
+        </div>
+
+        <!--todo el navegador responsivo-->
+        <ul class="list">
+
+
+            <li><a href="#">Inicio</a></li>
+            <li>
+                <a href="#">Pizza</a>
+                <ul class="submenu">
+                    <li><a href="./index2.html">Pizza Cacera</a></li>
+                    <li><a href="https://www.clarin.com/recetas/platos-principales/pizza-con-panceta_7_Fv33rSdRIX.html"
+                            target="_blank">Pizza Con Panceta</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Guiso</a>
+                <ul class="submenu">
+                    <li><a href="https://www.clarin.com/recetas/platos-principales/guiso-de-lentejas_7_xuO4kbQr.html"
+                            target="_blank"">Guiso de Lenteja</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href=" #">Empanada</a>
+                        <ul class="submenu">
+                            <li><a href="https://www.clarin.com/recetas/platos-principales/empanadas-de-acelga_7_G3cpGHlr8G.html"
+                                    target="_blank"">Empandas de acelga</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href=" #">Tarta</a>
+        <ul class="submenu">
+            <li><a href="https://www.clarin.com/recetas/platos-principales/tarta-de-choclo_7_ZFKFfBO_6.html"
+                    target="_blank">Tarta de Choclo</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href=" #">Temas</a>
+        <ul class="submenu">
+            <li>
+            <div>
+                <a id="bdark">
+                    <img src="./icons/moon.png">
+                </a>
+            </div>
+            </li>
+        </ul>
+    </li>
+
+                            <footer class="redes">
+                                <a class="redes1" href="https://www.facebook.com/" target="_blank">
+                                    <img src="./icons/facebook.png">
+                                </a>
+
+                                <a class="redes2" href="https://www.instagram.com/" target="_blank">
+                                    <img src="./icons/instagram.png">
+                                </a>
+
+                                <a class="redes3" href="https://twitter.com/?lang=es" target="_blank">
+                                    <img src="./icons/twitter.png">
+                                </a>
+                            </footer>
+
+                        </ul>
+                        <!--icono responsivo para el menu del celular-->
+                        <label for="toogle" class="icon-bars">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </label>
+
+    </nav>
+    <!--este contenedor esta para centrar todo-->
+    <div class="central-letra">
+
+        <!--esto es la imagen debajo del navegador-->
+        <div class="parallax"></div>
+
+        <!--aqui comienza el contenido de texto-->
+
+        <section>
+            <!--breakpoints del celular-->
+            <div>
+                <img class="fondo" src="./imagenes/bg.jpg">
+            </div>
+            <!--breakpoints del celular-->
+            <br>
+            <h1 class="borde">Bienvenidos a Todos a Esta Página de Cocina</h1>
+            <!--breakpoints para la computadora-->
+            <h1 class="borde2">Bienvenidos a Todos a Esta Página de Cocina</h1>
+            <p>Acá estaremos mostrando todas las recetas comunes y económicas de Argentina como pizza,
+                empanadas, tarta y guiso, ya saben lo típico del país </p>
+            <br>
+        </section>
+        <!--el primer carrusel-->
+    <div class="carrusel">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner" >
+              <div class="carousel-item active">
+                <img src="./imagenes/carrusel/carrusel1/pizzacasera.jpg" class="d-block w-100"  alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/carrusel/carrusel1/guisodearrozconlenteja.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/carrusel/carrusel1/empanadasconacelga.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./imagenes/carrusel/carrusel1/tartadechoclo.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div> 
+    <br>
+        <section>
+            <div class="p-3 bg-info bg-opacity-10 border border-info border-start-0 rounded-end"><p>Mientras tanto les dejo unas recetas de postres para una buena tarde o para llevar a
+            un cumpleaños de familiares o amigos</p>
+            </div>
+            <br>
+            <br>
+            <br>
+        </section>
+
+    </div>
+
+    <div class="conteiner">
+
+        <div class="row">
+            <div class="cartas col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./imagenes/cartaspostres/chocotorta.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Choco Torta</h5>
+                        <p class="card-text">aquí esta la receta de la chocotor Argentina :D</p>
+                        <a href="https://www.clarin.com/recetas/pasteleria/chocotorta_7_DTYefGpsA.html" target="_blank"
+                            class="btn btn-primary">Ver Receta</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cartas col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./imagenes/cartaspostres/tartadericota.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tarta de Ricota</h5>
+                        <p class="card-text">aquí esta la Receta de la Tarta de rico más rica <3 </p>
+                                <a href="https://www.clarin.com/recetas/pasteleria/tarta-de-ricota_7_jCCUffCjA.html"
+                                    target="_blank" class="btn btn-primary">Ver Receta</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cartas col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./imagenes/cartaspostres/chipdechocolate.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Galletitas de Chip de Chocolate</h5>
+                        <p class="card-text">estas son las mejores recetas de las galletitas de chip de chocolate</p>
+                        <a href="https://www.clarin.com/recetas/pasteleria/cookies-con-chips-roberto-petersen_7_yooQL3TSA.html"
+                            target="_blank" class="btn btn-primary">Ver Receta</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cartas col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <img src="./imagenes/cartaspostres/lemonpie.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Lemon Pie</h5>
+                        <p class="card-text">Receta de Como Hacer Lemon Pie</p>
+                        <a href="https://www.clarin.com/postres/lemon-pie_7_J1lk-hIe.html" target="_blank"
+                            class="btn btn-primary">Ver Receta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--musica de fondo-->
+    <div class="Music">
+    <audio id="audio" src="./audio/lefetinguitar.mp3" autoplay></audio>
+
+    <a class="audio" id="pause" onclick="togglePlayPause()">
+        <img src="./icons/pause.png">
+    </a>
+    </div>
+    <!--aqui comienza el footer para la resdes de abajo de todo-->
+    <footer class="yes">
+
+        <div class="map"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52575.723331211!2d-58.7363051!3d-34.553993199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd7f8ed7ed6f%3A0xa141f13ddb761d51!2sSan%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1686019657441!5m2!1ses!2sar"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <a class="yes1" href="https://www.facebook.com/" target="_blank">
+            <img src="./icons/facebook.png">
+        </a>
+
+        <a class="yes2" href="https://www.instagram.com/" target="_blank">
+            <img src="./icons/instagram.png">
+        </a>
+
+        <a class="yes3" href="https://twitter.com/?lang=es" target="_blank">
+            <img src="./icons/twitter.png">
+        </a>
+
+        <a class="whatsapp" href="https://web.whatsapp.com/" target="_blank">
+            <img src="./icons/Whatsapp.png">
+        </a>
+        <!--info del creador-->
+        <a class="Info" onclick="Info()">
+            <img src="./icons/info.png" hreh="">
+        </a>
+
+    </footer>
+    <!--script-->
+<script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
